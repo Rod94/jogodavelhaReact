@@ -2,15 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="sobre">
-      <header className="App-header">
-
-        <p>
+        <a href="#" className="sobre">
           Sobre
-        </p>
+        </a>
 
-      </header>
-    </div>
+
   );
 }
 
