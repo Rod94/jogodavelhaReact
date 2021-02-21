@@ -4,11 +4,9 @@ import './css/settings/colors.css';
 
 function App() {
   return (
-        <a href="#" className="sobre">
+        <a href="#" className="about">
           Sobre
         </a>
-
-
   );
 }
 
