@@ -4,7 +4,7 @@ import './css/settings/colors.css';
 
 function App() {
   return (
-        <a href="#" className="about">
+        <a href="#to-do" className="about">
           Sobre
         </a>
   );
