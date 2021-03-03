@@ -1,13 +1,11 @@
-import './App.css';
 import './css/generic/reset.css'
 import './css/settings/colors.css';
+import Sobre from './objects/sobre';
 
 function App() {
   return (
-        <a href="#to-do" className="about">
-          Sobre
-        </a>
-  );
+    <Sobre />
+  )
 }
 
 export default App;
