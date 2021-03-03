@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './css/generic/reset.css';
 import './css/settings/colors.css';
 import './css/elements/base.css';
-import './index.css';
 import App from './App';
 
 
