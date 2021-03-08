@@ -1,0 +1,29 @@
+.hamburguer {
+  margin-top: 40px;
+  width: 25px;
+  height: 3px;
+  background: var(--color-letter);
+  position: absolute;
+  border-radius: 25px;
+}
+
+
+.hamburguer:before {
+  content: "";
+  width: 25px;
+  height: 3px;
+  top: -6px;
+  background: var(--color-letter);
+  position: absolute;
+  border-radius: 25px;
+}
+
+.hamburguer:after {
+  content: "";
+  width: 25px;
+  height: 3px;
+  top: 6px;
+  background: var(--color-letter);
+  position: absolute;
+  border-radius: 25px;
+}
