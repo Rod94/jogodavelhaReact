@@ -3,12 +3,8 @@ import './styles.css'
 
 const Menu = () => {
   return (  
-  <>
-    <span className="hamburguer" />
-    <span className="hamburguer" />
-    <span className="hamburguer" />
-  </>
-  );
+  <a href="#menu" className="menu"><span className="hamburguer">Menu</span></a>
+);
 }
 
 export default Menu;
