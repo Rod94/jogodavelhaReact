@@ -1,15 +1,11 @@
 import './css/generic/reset.css'
 import './css/settings/colors.css';
-import Sobre from './objects/sobre';
-import Logo from './objects/logo';
-import Menu from './objects/menu';
+import Header from './components/header';
 
 function App() {
   return (
     <>
-      <Sobre />
-      <Logo />
-      <Menu />
+      <Header />
     </>
   )
 }
