@@ -2,8 +2,11 @@ import React from 'react';
 import './styles.css';
 
 
-const Card = () => {
-  return (<article className="game-card"></article>)
+const Card = (props) => {
+  return (
+  <article className="game-card">
+    {props.children}
+  </article>)
 }
 
 
