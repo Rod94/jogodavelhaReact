@@ -3,7 +3,7 @@ import './styles.css';
 
 
 const Card = () => {
-  return (<div className="game-card"></div>)
+  return (<article className="game-card"></article>)
 }
 
 
